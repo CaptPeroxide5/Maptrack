@@ -1,0 +1,57 @@
+*{
+    color: #2d3f9c;
+}
+
+.title{
+    position: relative;
+    left: 18rem;
+    top: 5rem;
+    font-size: 3rem;
+}
+
+.sub-title{
+    position: relative;
+    left: 21rem;
+    top: 6rem;
+}
+
+.logo{
+    height: 90px;
+    position: relative;
+    left: 1rem;
+    bottom: 3rem;
+}
+.sub-logo{
+    position: relative;
+    left: 24rem;
+    top: 5rem;
+    height: 200px;
+}
+
+ul,li,a{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+ul{
+    margin-left: 18rem;
+    position: relative;
+    top: 3rem;
+}
+
+nav{
+    align-items: center;
+    align-content: center;
+}
+
+#get_qr{
+    outline: none;
+    border: none;
+    color: white;
+    background: #2d3f9c;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 10px;
+}

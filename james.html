@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="styleshee" href="table-style.css">
+    <script src="table-js.js"></script> 
+</head>
+<body>
+    <div class="container">
+        <table class="_table">
+          <thead>
+            <tr>
+              <th>Full Name</th>
+              <th>Phone #</th>
+              <th>COVID-19 Test Results</th>
+              <th width="50px">
+                <div class="action_container">
+                  <button class="success" onclick="create_tr('table_body')">
+                    <i class="fa fa-plus"></i>
+                  </button>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody id="table_body">
+            <tr>
+              <td>
+                <input type="text" class="form_control" placeholder="Bob Carter">
+              </td>
+              <td>
+                <input type="text" class="form_control" placeholder="+617xxxxxxx">
+              </td><script src="index.js"></script> 
+              <td>
+                <textarea class="form_control" placeholder="Enter positive or negative"></textarea>
+              </td>
+              <td>
+                <div class="action_container">
+                  <button class="danger" onclick="remove_tr(this)">
+                    <i class="fa fa-close"></i>
+                  </button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h1>View Recent People You've Met</h1>
+
+      <style>
+        *{
+        color: #2d3f9c;
+        }
+
+        h1{
+          position: relative;
+          left: 30rem;
+        }
+      </style>
+</body>
+</html>
